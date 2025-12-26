@@ -100,7 +100,6 @@ def save_data(data, base_filename):
     df.to_csv(filename, index=False)
     print(f"Saved {filename}")
 
-# Job wrapper (required for schedule)
 def run_pipeline():
     print(f"Job started at {datetime.now(RTE_TZ)}")
 
